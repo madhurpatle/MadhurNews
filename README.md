@@ -1,3 +1,31 @@
+# Screenshots of Application
+
+![alt text](https://github.com/madhurpatle/MadhurNews/blob/master/public/Screenshot/Screenshot%202022-07-17%20at%204.39.37%20PM.JPG)
+![alt text](https://github.com/madhurpatle/MadhurNews/blob/master/public/Screenshot/Screenshot%202022-07-17%20at%204.40.10%20PM.JPG)
+
+
+# About
+Media BirdsEyes is a robust and real time new application which show the news of categories\
+Business\
+Entertainment\
+General\
+Health\
+Science\
+Sports\
+Technology
+
+It uses 
+### `NEWS API` 
+to fetch most recent news from different source of news articles like\
+Time od India, Google News, Aaj Tak, Zee News, Economic Times, Hindustan times etc.
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
