@@ -27,7 +27,7 @@ export class News extends Component {
             page: 1,
             totalResults: 0
         }
-        document.title = `${this.capitalizeFirstLetter(this.props.category)} - MadhurNews`;
+        document.title = `${this.capitalizeFirstLetter(this.props.category)} - Media BirdsEye`;
     }
 
     async updateNews() {
@@ -70,7 +70,7 @@ export class News extends Component {
     render() {
         return (
             <>
-                <h1 className="text-center" style={{ margin: '35px 0px' }}>MadhurNews - Top {this.capitalizeFirstLetter(this.props.category)} Headlines</h1>
+                <h1 className="text-center" style={{ margin: '35px 0px' }}>Media BirdsEye - Top {this.capitalizeFirstLetter(this.props.category)} Headlines</h1>
                 {this.state.loading && <Spinner />}
                 <InfiniteScroll
                     dataLength={this.state.articles.length}
